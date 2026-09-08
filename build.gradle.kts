@@ -1,8 +1,7 @@
-import org.jetbrains.kotlin.daemon.common.toHexString
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import java.security.MessageDigest
-import java.util.HexFormat
+import kotlin.text.toHexString
 
 buildscript {
     repositories {
